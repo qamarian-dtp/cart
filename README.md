@@ -1,4 +1,2 @@
-# cart
-This package/repository implements a data type that can be used to collect items around
-a program.
-
+# cart: An implementation of the Cart ADT
+This package implements the cart data type, a data type that could be used to collect items from around a program. See a more detailed documentation on [GoDoc](https://godoc.org/github.com/qamarian-dtp/cart).
