@@ -9,7 +9,7 @@ func newAdminPanel (c *Cart) (*AdminPanel) {
 }
 
 // This data type is meant to support the Cart data type. Some priviledged methods that
-// can not be invoked directly on a Cart, can be invoked directly on this data type.
+// may not be invoked directly on a Cart, can be invoked directly on this data type.
 type AdminPanel struct {
 	underlyingCart *Cart
 }

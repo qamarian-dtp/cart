@@ -1,6 +1,6 @@
 // This package implements the Cart abstract data type, a data type that could be used
 // to collect items from around a program. For example: if you want to collect some
-// items from some goroutines, you can create a Cart and pass its pointer to the
+// items from some goroutines, you could create a Cart and pass its pointer to the
 // goroutines. The goroutines can keep adding items to the cart, and when you are no
 // longer interested in collecting new items, you can harvest the cart. Once you
 // harvest the cart, no new item can be added to the cart.
