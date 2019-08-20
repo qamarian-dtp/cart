@@ -5,7 +5,7 @@
 // longer interested in collecting new items, you can harvest the cart. Once you
 // harvest the cart, no new item can be added to the cart.
 //
-//	myCart, adminPanel ;= cart.New ()
+//	myCart, adminPanel := cart.New ()
 //	go func (someCart *cart.Cart) {
 //		for { // Items are added till the cart is harvested
 //			err := someCart.Put ("some item")

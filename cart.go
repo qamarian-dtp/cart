@@ -82,6 +82,11 @@ func (c *Cart) harvest () (*list.List, error) {
 	return c.items, nil
 }
 
+// Count () helps count the number of items that have been put in the cart so far.
+func (c *Cart) Count () (int) {
+	return c.items.Len ()
+}
+
 var (
 	StateDormant   int32 = 0 // No operation is being performed on the cart
 	StateInUse     int32 = 1 // An item is being added to the cart

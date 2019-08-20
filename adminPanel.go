@@ -15,7 +15,7 @@ type AdminPanel struct {
 }
 
 // Harvest () is a wrapper around method harvest () of the Cart abstract data type. If
-// the underlying cart haa already been harvested, value would be ErrBeenHarvested.
+// the underlying cart has already been harvested, value would be ErrBeenHarvested.
 func (p *AdminPanel) Harvest () (*list.List, error) {
 	return p.underlyingCart.harvest ()
 }
